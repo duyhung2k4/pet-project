@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Inter:wght@500&family=Poppins:wght@400;500&family=Quicksand:wght@600&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="content">
+      <div class="box-full-screen">
+        <div class="box-link">
+          <img src="./image/logoBlue.png" alt="">
+          <ul id="list-link-full-screen" class="ul ul-col list-col">
+            <li class="link">Trang chủ</li>
+            <li class="link">Tin tức</li>
+            <li class="link">Khóa học</li>
+            <li class="link">Bài test</li>
+            <li class="link">Giảng viên</li>
+          </ul>
+        </div>
+        <ul id="action-full-screen" class="ul ul-col list-col box-action">
+          <li class="action">
+            <button class="button button-light">Đăng nhập</button>
+          </li>
+          <li class="action">
+            <button class="button button-dark">Đăng kí</button>
+          </li>
+        </ul>
+        <div id="action-mini-screen">
+          <img src="./icon/menu.png" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+  <div id="list-link-mini-screen">
+    <ul class="ul ul-row">
+      <li class="link">Trang chủ</li>
+      <li class="link">Tin tức</li>
+      <li class="link">Khóa học</li>
+      <li class="link">Bài test</li>
+      <li class="link">Giảng viên</li>
+    </ul>
+    <div class="line line-margin-md"></div>
+    <ul class="ul ul-row action">
+      <li>
+        <button class="button button-light">Đăng nhập</button>
+      </li>
+      <li>
+        <button class="button button-dark">Đăng kí</button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="container"></div>
+  <footer class="footer">
+    <div class="content">
+      <div class="box-footer">
+        <img src="./image/logoWhite.png" alt="">
+        <p>Copyright © 2023 HDX PROGRAMMING ACADEMY - All rights reserved</p>
+        <div class="list-icon">
+          <img src="./icon/facebook.png" alt="">
+          <img src="./icon/email.png" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="./main.js"></script>
+
+</html>

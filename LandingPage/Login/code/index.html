@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Inter:wght@500&family=Poppins:wght@400;500&family=Quicksand:wght@600&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="background">
+      <img class="logo" src="./image/logo.png" alt="">
+      <img class="bg" src="./image/background.png" alt="">
+    </div>
+    <div class="content">
+
+      <div class="box-form">
+        <p class="welcome">Chào mừng bạn đến IGCE</p>
+        <div class="header">
+          <p class="title">Đăng nhập</p>
+          <p class="detail">Vui lòng đăng nhập vào tài khoản của bạn.</p>
+        </div>
+
+        <form action="" id="login">
+          <div class="field">
+            <label for="username">Tên đăng nhập</label>
+            <input placeholder="Tên đăng nhập" type="text" id="username" name="username">
+          </div>
+          <div class="field">
+            <label for="password">Mật khẩu</label>
+            <input placeholder="Ít nhất 8 kí tự" type="text" id="password" name="password">
+          </div>
+        </form>
+
+        <div class="action mr-top-md">
+          <button class="button button-dark full-width">Đăng kí</button>
+          <div class="box-line">
+            <div class="line"></div>
+            <div class="text">Hoặc</div>
+            <div class="line"></div>
+          </div>
+          <button class="button button-light full-width">
+            <img height="16px" width="16px" src="./icon/google.png" alt="">
+            Đăng nhập bằng google
+          </button>
+        </div>
+
+        <div class="footer mr-top-lg">
+          <p>Bạn đã có tài khoản chưa? <a href="http://localhost:5500/Register/code">Đăng kí</a> ngay?</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
